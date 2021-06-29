@@ -6,7 +6,8 @@ import { injected } from '../connectors'
 export const GAS_PRICE = 225;
 
 export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
-  [ChainId.FUJI]: '0x2D99ABD9008Dc933ff5c0CD271B88309593aB921',
+  [ChainId.FUJI]: '0xE3D474915902F53e1664b42E91125EF0fb4e90Ec',
+  // [ChainId.FUJI]: '0x2D99ABD9008Dc933ff5c0CD271B88309593aB921',
   [ChainId.AVALANCHE]: '0xE54Ca86531e17Ef3616d22Ca28b0D458b6C89106'
 }
 
@@ -43,7 +44,7 @@ export const WBTC: { [chainId in ChainId]: Token } = {
 }
 
 export const LINK: { [chainId in ChainId]: Token } = {
-  [ChainId.FUJI]: new Token(ChainId.FUJI, ZERO_ADDRESS, 18, 'LINK', 'ChainLink Token'),
+  [ChainId.FUJI]: new Token(ChainId.FUJI, '0x0102667e2476d70e178703b5B76efA4a2d04c0b3', 18, 'LINK', 'ChainLink Token'),
   [ChainId.AVALANCHE]: new Token(ChainId.AVALANCHE, '0xB3fe5374F67D7a22886A0eE082b2E2f9d2651651', 18, 'LINK', 'ChainLink Token')
 }
 
