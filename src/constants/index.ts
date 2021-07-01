@@ -6,8 +6,11 @@ import { injected } from '../connectors'
 export const GAS_PRICE = 225;
 
 export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
-  [ChainId.FUJI]: '0xE3D474915902F53e1664b42E91125EF0fb4e90Ec',
+  // [ChainId.FUJI]: '0xE3D474915902F53e1664b42E91125EF0fb4e90Ec',
   // [ChainId.FUJI]: '0x2D99ABD9008Dc933ff5c0CD271B88309593aB921',
+
+  // 0x8F5..3e6 address' constructor arg[0] matches the original's [0], PangolinFactory.sol
+  [ChainId.FUJI]: '0x8F57d40604736B2eDE27D0beD9e76577A85A83e6', 
   [ChainId.AVALANCHE]: '0xE54Ca86531e17Ef3616d22Ca28b0D458b6C89106'
 }
 
