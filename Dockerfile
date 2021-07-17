@@ -6,7 +6,8 @@ WORKDIR /
 ENV PATH /app/node_modules/.bin:$PATH
 # install application dependencies
 COPY package.json ./
-RUN npm install
+RUN npm install @react-native-community/datetimepicker@3.0.0 --force
+RUN npm install --force
 # add app
 COPY . ./
 # start app
