@@ -6,9 +6,11 @@ WORKDIR /
 ENV PATH /app/node_modules/.bin:$PATH
 # install application dependencies
 COPY package.json ./
-RUN yarn 
+RUN npm install yarn
+RUN yarn install
 # add app
 COPY . ./
 # start app
 EXPOSE 3001:3000
 CMD ["yarn", "start"]
+CMD ["yarn", "build"]
