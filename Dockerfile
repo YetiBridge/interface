@@ -6,7 +6,7 @@ WORKDIR /
 ENV PATH /app/node_modules/.bin:$PATH
 # install application dependencies
 COPY package.json ./
-RUN npm install
+RUN npm install --force
 # add app
 COPY . ./
 # start app
