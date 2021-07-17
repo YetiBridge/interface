@@ -35,4 +35,4 @@ cypress/fixtures/example.json
 # Local Netlify folder
 .netlify
 
-Dockerfile
+

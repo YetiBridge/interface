@@ -5,7 +5,5 @@ build
 **/.git
 **/.DS_Store
 **/node_modules
-Dockerfile
-.env
 yarn.lock
 yarn-error.log
