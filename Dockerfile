@@ -6,7 +6,9 @@ WORKDIR /
 ENV PATH /app/node_modules/.bin:$PATH
 # install application dependencies
 COPY package.json ./
-RUN npm install  --legacy-peer-deps 
+RUN apk update
+RUN apk upgrade
+RUN npm install -g npm@7.20.0
 # add app
 COPY . ./
 # start app
