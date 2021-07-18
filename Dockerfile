@@ -8,8 +8,9 @@ ENV PATH /app/node_modules/.bin:$PATH
 COPY package.json ./
 RUN apk update
 RUN apk upgrade
-RUN npm install -g npm@7.20.0
-RUN npm install react-scripts --save
+RUN npm install -g npm@7.20.0 
+RUN npm install --force
+RUN npm install react-scripts --save --force
 # add app
 COPY . ./
 # start app
