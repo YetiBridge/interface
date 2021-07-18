@@ -9,6 +9,7 @@ COPY package.json ./
 RUN apk update
 RUN apk upgrade
 RUN npm install -g npm@7.20.0
+RUN npm install react-scripts --save
 # add app
 COPY . ./
 # start app
