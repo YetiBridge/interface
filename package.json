@@ -77,7 +77,6 @@
     "react-popper": "^2.2.3",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "^3.4.1",
     "react-spring": "^8.0.27",
     "react-use-gesture": "^6.0.14",
     "react-virtualized-auto-sizer": "^1.0.2",
@@ -123,6 +122,7 @@
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "@gogettermeme/exchange-contracts": "github:GoGetterMeme/exchange-contracts",
-    "@yetibridge/exchange-contracts": "^1.0.0"
+    "@yetibridge/exchange-contracts": "^1.0.0",
+    "react-scripts": "^3.4.1"
   }
 }
