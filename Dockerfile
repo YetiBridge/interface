@@ -1,5 +1,5 @@
 # pull the official base image
-FROM ubuntu:latest
+FROM node:alpine
 # set working direction
 WORKDIR /
 # add `/app/node_modules/.bin` to $PATH
