@@ -130,7 +130,7 @@ const PNGAmount = styled(AccountElement)`
   height: 36px;
   font-weight: 500;
   background-color: ${({ theme }) => theme.bg3};
-  background: radial-gradient(174.47% 188.91% at 1.84% 0%, #f97316 0%, #E84142 100%), #edeef2;
+  background: radial-gradient(174.47% 188.91% at 1.84% 0%, #87ceeb 0%, #87c1eb 100%), #edeef2;
 `
 
 const PNGWrapper = styled.span`
@@ -299,21 +299,24 @@ export default function Header() {
           >
             {t('pool')}
           </StyledNavLink>
-          <StyledNavLink id={`stake-nav-link`} to={'/png/1'}>
-            New PNG
+          {/* <StyledNavLink id={`stake-nav-link`} to={'/png/1'}> */}
+            {/* New PNG
           </StyledNavLink>
           <StyledNavLink id={`stake-nav-link`} to={'/png/0'}>
             Old PNG
-          </StyledNavLink>
+          </StyledNavLink> */}
           <StyledNavLink id={`stake-nav-link`} to={'/vote'}>
             Vote
           </StyledNavLink>
+          <StyledExternalLink id={`bridge-nav-link`} href={'https://chainbridgesdk.netlify.app'}>
+	            Bridge <span style={{ fontSize: '11px' }}>↗</span>
+          </StyledExternalLink>
           <StyledExternalLink id={`info-nav-link`} href={ANALYTICS_PAGE}>
 	            Charts <span style={{ fontSize: '11px' }}>↗</span>
           </StyledExternalLink>
-          <StyledExternalLink id={`gov-nav-link`} href={'https://gov.pangolin.exchange'}>
+          {/* <StyledExternalLink id={`gov-nav-link`} href={'https://gov.pangolin.exchange'}>
 	            Forum <span style={{ fontSize: '11px' }}>↗</span>
-          </StyledExternalLink>
+          </StyledExternalLink> */}
         </HeaderLinks>
       </HeaderRow>
       <HeaderControls>
@@ -344,7 +347,7 @@ export default function Header() {
                     </TYPE.white>
                   </HideSmall>
                 )}
-                PNG
+                YETI
               </PNGAmount>
               <CardNoise />
             </PNGWrapper>

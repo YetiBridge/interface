@@ -59,11 +59,11 @@ export function colors(darkMode: boolean): Colors {
     advancedBG: darkMode ? 'rgba(0,0,0,0.1)' : 'rgba(255,255,255,0.6)',
 
     //primary colors
-    primary1: darkMode ? '#2172E5' : '#FF6B00',
-    primary2: darkMode ? '#3680E7' : '#FF6B00',
-    primary3: darkMode ? '#4D8FEA' : '#FF6B00',
-    primary4: darkMode ? '#376bad70' : '#FF6B00',
-    primary5: darkMode ? '#153d6f70' : '#FF6B00',
+    primary1: darkMode ? '#2172E5' : '#87ceeb',
+    primary2: darkMode ? '#3680E7' : '#87ceeb',
+    primary3: darkMode ? '#4D8FEA' : '#87ceeb',
+    primary4: darkMode ? '#376bad70' : '#87ceeb',
+    primary5: darkMode ? '#153d6f70' : '#87ceeb',
     primary6: darkMode ? '#2172E5' : '#FFFFFF',
 
     // color text
@@ -79,10 +79,10 @@ export function colors(darkMode: boolean): Colors {
     red2: '#F82D3A',
     green1: '#27AE60',
     yellow1: '#FFE270',
-    yellow2: '#F3841E',
+    yellow2: '#87c1eb',
     blue1: '#2172E5',
 
-    avaxRed: '#E84142'
+    avaxRed: '#87c1eb'
 
     // dont wanna forget these blue yet
     // blue4: darkMode ? '#153d6f70' : '#C4D9F8',

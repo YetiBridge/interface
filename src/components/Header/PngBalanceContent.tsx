@@ -22,7 +22,7 @@ const ContentWrapper = styled(AutoColumn)`
 
 const ModalUpper = styled(DataCard)`
    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-   background: radial-gradient(76.02% 75.41% at 1.84% 0%, #f97316 0%, #E84142 100%);
+   background: radial-gradient(76.02% 75.41% at 1.84% 0%, #87ceeb 0%, #87c1eb 100%);
    padding: 0.5rem;
  `
 
@@ -76,7 +76,7 @@ export default function PngBalanceContent({ setShowPngBalanceModal }: { setShowP
 				<CardNoise />
 				<CardSection gap="md">
 					<RowBetween>
-						<TYPE.white color="white">Your PNG Breakdown</TYPE.white>
+						<TYPE.white color="white">Your YETI Breakdown</TYPE.white>
 						<StyledClose stroke="white" onClick={() => setShowPngBalanceModal(false)} />
 					</RowBetween>
 				</CardSection>
@@ -114,11 +114,11 @@ export default function PngBalanceContent({ setShowPngBalanceModal }: { setShowP
 				<CardSection gap="sm">
 					<AutoColumn gap="md">
 						<RowBetween>
-							<TYPE.white color="white">PNG price:</TYPE.white>
+							<TYPE.white color="white">YETI price:</TYPE.white>
 							<TYPE.white color="white">{pngPrice?.toFixed(5) ?? '-'} AVAX</TYPE.white>
 						</RowBetween>
 						<RowBetween>
-							<TYPE.white color="white">PNG in circulation:</TYPE.white>
+							<TYPE.white color="white">YETI in circulation:</TYPE.white>
 							<TYPE.white color="white">{circulation?.toFixed(0, { groupSeparator: ',' })}</TYPE.white>
 						</RowBetween>
 						<RowBetween>

@@ -122,7 +122,7 @@ export default function Menu() {
             <Twitter size={14} />
             Twitter
           </MenuItem>
-          <MenuItem id="link" href="https://github.com/pangolindex">
+          <MenuItem id="link" href="https://github.com/yetibridge">
             <GitHub size={14} />
             Code
           </MenuItem>

@@ -137,18 +137,18 @@ export default function Vote() {
           <CardSection>
             <AutoColumn gap="md">
               <RowBetween>
-                <TYPE.white fontWeight={600}>Pangolin Governance</TYPE.white>
+                <TYPE.white fontWeight={600}>YetiBridge Governance</TYPE.white>
               </RowBetween>
               <RowBetween>
                 <TYPE.white fontSize={14}>
-                  PNG tokens represent voting shares in Pangolin governance. You can vote on each proposal yourself or
+                  YETI tokens represent voting shares in YetiBridge governance. You can vote on each proposal yourself or
                   delegate your votes to a third party.
                 </TYPE.white>
               </RowBetween>
               <RowBetween>
                 <TYPE.white fontSize={14}>
-                  To be eligible to vote, you must hold PNG in your wallet and delegate
-                  it at the start of voting. After voting has begun, you may pool or spend your PNG.
+                  To be eligible to vote, you must hold YETI in your wallet and delegate
+                  it at the start of voting. After voting has begun, you may pool or spend your YETI.
                 </TYPE.white>
               </RowBetween>
               <RowBetween>
@@ -234,7 +234,7 @@ export default function Vote() {
         })}
       </TopSection>
       <TYPE.subHeader color="text3">
-        A minimum threshhold of 1,000,000 PNG is required to submit proposals
+        A minimum threshhold of 1,000,000 YETI is required to submit proposals
       </TYPE.subHeader>
     </PageWrapper>
   )
