@@ -7,7 +7,8 @@ export const GAS_PRICE = 225;
 
 export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.FUJI]: '0x2D99ABD9008Dc933ff5c0CD271B88309593aB921',
-  // [ChainId.FUJI]: '0x73a3380A6A279e8b59DAF8196158D2614798FF5f', // refer to this link: https://blockchain.news/wiki/how-to-build-an-uniswap-exchange
+  // wAVAX FUJI = 0x1D308089a2D1Ced3f1Ce36B1FcaF815b07217be3
+  // [ChainId.FUJI]: '0x9366913FC61961C5bd13365B5129051c80080F28', // refer to this link: https://blockchain.news/wiki/how-to-build-an-uniswap-exchange
   [ChainId.AVALANCHE]: '0xE54Ca86531e17Ef3616d22Ca28b0D458b6C89106'
 }
 
